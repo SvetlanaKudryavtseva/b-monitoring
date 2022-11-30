@@ -4,9 +4,9 @@ if(!class_exists('CHTTP')){
 }
 CHTTP::SetStatus("404 Not Found");
 @define("ERROR_404","Y");
+require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Страница не найдена");
 $APPLICATION->SetPageProperty("title", "Страница не найдена");
-require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 ?>
 <style>.right_block.wide_, .right_block.wide_N{float:none !important;width:100% !important;}.page-top{display: none;}</style>
 <div class="maxwidth-theme">
