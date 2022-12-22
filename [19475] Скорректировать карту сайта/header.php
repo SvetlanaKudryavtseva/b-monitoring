@@ -23,7 +23,7 @@ $bIncludedModule = \Bitrix\Main\Loader::includeModule('aspro.allcorp3');
 		<?// TASK 19079 ?>
 
 		<title><?$APPLICATION->ShowTitle()?></title>
-		<link rel="canonical" href="<?=$APPLICATION->GetCurDir(); ?>" />
+		<link rel="canonical" href="<?=$APPLICATION->GetCurPage(); ?>" />
 		<?$APPLICATION->ShowMeta("viewport");?>
 		<?$APPLICATION->ShowMeta("HandheldFriendly");?>
 		<?$APPLICATION->ShowMeta("apple-mobile-web-app-capable", "yes");?>
