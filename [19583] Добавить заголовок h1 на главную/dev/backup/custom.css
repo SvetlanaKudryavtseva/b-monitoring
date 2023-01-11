@@ -1,0 +1,143 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+/* Examples (uncomment to use):*/
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+/*  change MAIN page &gt; BANNER TEXT
+    ---1. TITLE text size 
+*/
+@media (max-width: 1940px) {
+    .banners-big__title--middle {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .banners-big__text--wide .banners-big__title {
+        width: 62%;
+    }
+}
+@media (max-width: 1640px) {
+    .banners-big__title--middle {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    /* .banners-big__text--wide .banners-big__title {
+        width: 60%;
+    } */
+}
+@media (max-width: 1024px) {
+    .banners-big__title--middle {
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+    .banners-big__text--wide .banners-big__title {
+        width: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .banners-big__title--middle {
+        font-size: 2.2rem;
+        line-height: 2.45rem;
+    }
+    .banners-big__text--wide .banners-big__title {
+        width: 80%;
+    }
+}
+@media (max-width: 670px) {
+    .banners-big--adaptive-1 .banners-big__title {
+        font-size: 1.6rem;
+        padding-left: 0;
+        line-height: 2rem;
+        width: 90%;
+    }
+}
+@media (max-width: 440px) {
+    .banners-big--adaptive-1 .banners-big__title {
+        font-size: 1.4rem;
+        line-height: 1.55rem;
+    }
+}
+h3 {
+	color: #005986;
+}
+#pagetitle {
+	color: #005986;
+}
+/*hide dropdown menu in header-menu only for section Выполненные проекты*/
+.header-menu__item:nth-child(4) .header-menu__dropdown-menu{
+display:none;
+}
+.banners-big__text-block ul{
+      list-style-position: outside;
+      padding-left: 24px;
+      /*font-size:1.2em;*/
+font-size: 1.875rem;
+    line-height: 3rem;
+font-weight:700;
+font-family: "Roboto", Arial, sans-serif;
+}
+.banners-big__text-block ul li{
+list-style-position: outside;
+      list-style-type:disc;
+      /*line-height: 30px;*/
+ line-height: 3rem;
+}
+.banners-big__text-block div{
+      font-size: 2.2rem;
+padding-top: 10px;
+line-height: 3rem;
+font-weight:700;
+font-family: "Roboto", Arial, sans-serif;
+}
+@media (max-width: 1024px) {
+    .banners-big__text-block div {
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .banners-big__text-block div {
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+    }
+}
+@media (max-width: 670px) {
+       .banners-big__text-block div {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        width: 90%;
+margin: 0 auto;
+    }
+}
+@media (max-width: 440px) {
+    .banners-big__text-block div {
+        font-size: 0.9rem;
+        line-height: 1.07rem;
+    }
+ .banners-big__text-block div p{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .banners-big__text-block div p{
+font-size: 0.82rem;
+line-height: 1rem;
+width: 85%;
+    }
+.banners-big__text-block div{
+padding-top:6px;
+}
+ .banners-big__text-block div p{
+       margin-bottom: 7px;
+    }
+}
+@media (max-width: 370px) {
+.banners-big__text-block div{
+display:none;
+}
+}
+.header{
+opacity: 0.92;
+}
